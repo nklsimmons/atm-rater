@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     webpack: {
       poll: 1000
     }
-  }
+  },
+  modules: ["nuxt-mongoose"],
 })
