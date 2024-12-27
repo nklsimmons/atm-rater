@@ -7,7 +7,7 @@ console.log(data)
     <div>
         <h1>Hello World</h1>
         <div v-for="country in data">
-            <NuxtLink :to="{ name: 'banks', params: { id: country } }">
+            <NuxtLink :to="{ name: 'country', params: { country: country.name } }">
                 {{ country.name }}
             </NuxtLink>
         </div>
