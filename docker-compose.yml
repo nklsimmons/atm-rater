@@ -1,0 +1,5 @@
+services:
+  app_server:
+    build: .
+    ports:
+      - '80:3000'
